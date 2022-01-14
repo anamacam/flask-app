@@ -84,7 +84,7 @@ ALTER TABLE `operaciones`
 ALTER TABLE `transacciones`
   ADD PRIMARY KEY (`consecutivo`),
   ADD KEY `transacciones_clientes` (`id_cliente`),
-  ADD KEY `transaccion_operacion` (`tipo_transacion`);
+  ADD KEY `transaccion_operacion` (`tipo_transaccion`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
