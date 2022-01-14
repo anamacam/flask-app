@@ -51,7 +51,7 @@ CREATE TABLE `transacciones` (
   `consecutivo` int(10) UNSIGNED NOT NULL,
   `id_cliente` varchar(24) NOT NULL,
   `valor` int(11) NOT NULL,
-  `tipo_transacion` tinyint(3) UNSIGNED NOT NULL,
+  `tipo_transaccion` tinyint(3) UNSIGNED NOT NULL,
   `fecha` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
